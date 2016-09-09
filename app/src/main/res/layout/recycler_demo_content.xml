@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true">
+
+
+    <ImageView
+        android:id="@+id/i_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"/>
+
+    <ImageView
+        android:id="@+id/i_filter"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <ImageView
+        android:id="@+id/i_shadow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/amz_shadow"/>
+
+    <View
+        android:id="@+id/v_underline"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_alignParentBottom="true"/>
+
+    <ImageView
+        android:id="@+id/i_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/v_underline"
+        android:layout_marginBottom="10dip"
+        android:layout_marginLeft="10dip"
+        android:scaleType="fitXY"
+        android:src="@mipmap/ic_launcher"/>
+
+    <TextView
+        android:id="@+id/t_subtitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/v_underline"
+        android:layout_marginLeft="15dip"
+        android:layout_marginRight="15dip"
+        android:layout_toRightOf="@+id/i_icon"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"/>
+
+    <TextView
+        android:id="@+id/t_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/v_underline"
+        android:layout_marginBottom="10dip"
+        android:layout_marginLeft="15dip"
+        android:layout_marginRight="15dip"
+        android:layout_toRightOf="@+id/i_icon"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"/>
+
+</RelativeLayout>
