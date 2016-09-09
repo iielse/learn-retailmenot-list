@@ -1,12 +1,12 @@
-#DialogDemo
+#RetailMeNotList
 
-![image](http://img.my.csdn.net/uploads/201607/25/1469408834_3192.jpg)
+![image](https://github.com/iielse/RetailMeNotList/blob/master/previews/123456789.gif)
+![image](https://github.com/iielse/RetailMeNotList/blob/master/previews/987654321.gif)
 
-```
-BottomMenuDialog.Builder builder = BottomMenuDialog.Builder(MainActivity.this);
-builder.setTitle("更换封面");
-builder.addMenu("从手机相册选择" ， new View.OnClickListener(){...});
-builder.addMenu(...);
-BottomMenuDialog dialog = builder.create();
-dialog.show();
-```
+## Download
+
+[DemoApp.apk](https://github.com/iielse/RetailMeNotList/blob/master/previews/RetailMeNotList.apk)
+
+## Contact
+QQ Group : 274306954
+
