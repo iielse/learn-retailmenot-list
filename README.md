@@ -7,6 +7,9 @@
 
 [DemoApp.apk](https://github.com/iielse/RetailMeNotList/blob/master/previews/RetailMeNotList.apk)
 
+## iOS
+https://github.com/longlongvalue/MerchantsCircularSliding
+
 ## Contact
 QQ Group : 274306954
 
